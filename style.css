@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.paginator ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  font-weight: bold;
+}
+
+.paginator li {
+  width: 2rem;
+  height: 2rem;
+  color: rgb(57, 138, 231);
+  cursor: pointer;
+  font-size: 0.75rem;
+  text-align: center;
+  align-content: center;
+  border: 1px solid grey;
+  /* border-radius: 2px; */
+}
+
+.paginator li:hover {
+  background-color: rgba(202, 203, 216, 0.616);
+}
+
+#first-li {
+  border-radius: 2px 0 0 2px;
+}
+
+#last-li {
+  border-radius: 0 2px 2px 0;
+}
